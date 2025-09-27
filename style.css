@@ -1,0 +1,27 @@
+.background {
+    background-image: url("background.png");
+    background-size: 85%;
+}
+
+.time {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.knight {
+    position:absolute;
+    height: 200px;
+    margin-top: 380px;
+    margin-left: 200px;
+}
+
+.zombie{
+    position:absolute;
+    height: 200px; 
+    margin-top: 380px;
+    margin-left: 1200px;
+    transform: scaleX(-1);
+}
